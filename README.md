@@ -1,8 +1,12 @@
 # Lavi Design Studio Homebrew tap
 
 ```bash
+brew tap lavi-design-studio/tap
+brew trust lavi-design-studio/tap
 brew install --cask lavi-design-studio/tap/luna
 ```
+
+Homebrew 7 loads casks from other taps only once you trust them (`brew trust`).
 
 **Luna** is a browser with one field and tabs down the side. It needs macOS 26 Tahoe or later.
 
