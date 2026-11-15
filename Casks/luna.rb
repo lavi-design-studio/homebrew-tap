@@ -1,6 +1,6 @@
 cask "luna" do
   version "1.1.0"
-  sha256 "1a90c5a23259283f416dfd038ecbe2c4ee121d167d923c581fd650e74ce1a5f1"
+  sha256 "eb06610aa5c3dce0456f333352461e27b1a4220b142f2bad653a57d686626ce3"
 
   url "https://github.com/lavi-design-studio/luna-mac-releases/releases/download/v#{version}/Luna-#{version}.dmg"
   name "Luna"
