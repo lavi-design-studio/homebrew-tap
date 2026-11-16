@@ -8,7 +8,7 @@ cask "luna" do
   homepage "https://github.com/lavi-design-studio/luna-mac-releases"
 
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Luna.app"
 
