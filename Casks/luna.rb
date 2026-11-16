@@ -1,6 +1,6 @@
 cask "luna" do
-  version "1.1.0"
-  sha256 "eb06610aa5c3dce0456f333352461e27b1a4220b142f2bad653a57d686626ce3"
+  version "1.1.1"
+  sha256 "4a81a3d7a1069077b0588166fc71a8b26ff42247e41a72356bc485d8a4f064e8"
 
   url "https://github.com/lavi-design-studio/luna-mac-releases/releases/download/v#{version}/Luna-#{version}.dmg"
   name "Luna"
@@ -8,7 +8,7 @@ cask "luna" do
   homepage "https://github.com/lavi-design-studio/luna-mac-releases"
 
   auto_updates true
-  depends_on macos: :tahoe
+  depends_on macos: ">= :ventura"
 
   app "Luna.app"
 
